@@ -1,5 +1,6 @@
 <template>
-    <div :el-container>
+    <el-container>
+    <el-main>
     <el-row :gutter="10">
         <el-col :xs="8" :sm="6" :md="4" :lg="3" :xl="1">
             <div class="grid-content bg-purple"></div>
@@ -14,7 +15,8 @@
             <div class="grid-content bg-purple-light"></div>
         </el-col>
     </el-row>
-    </div>
+    </el-main>
+    </el-container>
 
 
 </template>
@@ -25,6 +27,11 @@
 <style>
     .el-container {
         background-image: url("~@/assets/images/bg_painter_0.png");
+        background-repeat: no-repeat;
+        height: 523px;
+        filter: blur(1px);
+        border-radius: 8px;
+        box-shadow: #99a9bf;
     }
     .el-col {
         border-radius: 4px;

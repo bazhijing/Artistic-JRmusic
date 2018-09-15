@@ -1,5 +1,8 @@
 # ajrmusic
 
+## author:jammieluo pokemonhacker@qq.com 
+## artistic 极致软件企划
+
 > An electron-vue project
 
 #### Build Setup
